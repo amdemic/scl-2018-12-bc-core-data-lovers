@@ -36,5 +36,6 @@ const printType = (data) => {
   for(i = 0; i < data.length; i++){
     type.push(data[i].type)
   };
-  return type;
-  }
+  return type;  }
+
+  
