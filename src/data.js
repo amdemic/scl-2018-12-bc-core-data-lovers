@@ -63,6 +63,9 @@ const printId = (newData) => {
   return id;
 }
 
+
+
+
 const printNumber = (newData) => {
   let number = [];
   for(i = 0; i < newData.length; i++){
