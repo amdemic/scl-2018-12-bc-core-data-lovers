@@ -1,12 +1,26 @@
+global.window = global;
+global.assert = requiere ("chai").assert;
 require('../src/data.js');
+require('./data.spec.js');
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe("filterData", () => {
+
+
+  it("deberia mostrar los pokemones de todos los tipos", () => {
+    assert.equal(typeof filterData,"tipo");
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
+describe("data.filter", () => {
+it("deberia mostrar los pokemones correspondientes a un tipo seleccionado",() => {
+  assert.equal(typeof data.filter,"function");
 });
+
+it("deberia retornar Dragonair, Dragonite, Dratini para tipo Dragón", () => {
+    assert.equal(data.filter(type[15]));
+
+  });
+
+});
+
+
