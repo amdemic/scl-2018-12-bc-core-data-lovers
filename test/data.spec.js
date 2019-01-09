@@ -1,24 +1,24 @@
 global.window = global;
-global.assert = requiere ("chai").assert;
+global.assert = require ("chai").assert;
 require('../src/data.js');
-require('./data.spec.js');
+require("../src/data/pokemon/pokemon.js");
 
 
-describe("filterData", () => {
+const data = window.POKEMON.pokemon;
 
-
-  it("deberia mostrar los pokemones de todos los tipos", () => {
-    assert.equal(typeof filterData,"tipo");
+describe ("POKEMON.pokemon", () => {
+  it ("deberia ser un objeto", () => {
+    assert.equal(typeof POKEMON.pokemon,"object");
   });
-
-describe("data.filter", () => {
-it("deberia mostrar los pokemones correspondientes a un tipo seleccionado",() => {
-  assert.equal(typeof data.filter,"function");
 });
 
-it("deberia retornar Dragonair, Dragonite, Dratini para tipo Dragón", () => {
-    assert.equal(data.filter(type[15]));
-
+describe ("POKEMON.pokemon.filterData", () => {
+  it("deberia ser una funcion",() => {
+    assert.equal(typeof pokemonData.filterData, "function");
   });
+  it(`deberia retornar "Bulbasaur" para "Grass" con "type[0]"`, () => {
+    assert.equal(typeof pokemonData.filterData ("type[0]",type.Grass), "Bulbasaur");
+  });
+});
 
-});//test
+
