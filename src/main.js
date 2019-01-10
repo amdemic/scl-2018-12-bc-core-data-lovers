@@ -1,5 +1,4 @@
-const mainData = POKEMON;
-const data = mainData.pokemon;
+const data = window.POKEMON.pokemon;
 let mainBody = document.getElementsByTagName("body")[0];
 let header = document.getElementById("header");
 let mainBox = document.getElementById("root");
@@ -13,8 +12,7 @@ window.onload = function () {
   document.getElementById("root").innerHTML = "";
 
   let selectedType = document.getElementById("type").value;
-  const newData = window.window.pokemonData.filterData(data, selectedType);
-  const totalPokemon = window.pokemonData.computeStats(newData);
+  const newData = window.pokemonData.filterData(data, selectedType);
 
   createTotal = document.createElement("h5");
   mainBox.appendChild(createTotal);
@@ -22,8 +20,7 @@ window.onload = function () {
   createCard = document.createElement("div");
   mainBox.appendChild(createCard);
 
-  createTotal.innerHTML = `Total de tu selección: ${totalPokemon}`
-
+ 
   newData.forEach(element => {
     createCard.innerHTML +=
       `<div class="col s10 m4 l3">
@@ -79,7 +76,8 @@ window.onload = function () {
       }
     }
   });
-};
+}
+
 
 document.getElementById("type").addEventListener("change", () => {
 
@@ -99,6 +97,7 @@ document.getElementById("type").addEventListener("change", () => {
 
   createTotal.innerHTML = `Total de tu selección: ${totalPokemon}`
 
+
   newData.forEach(element => {
     createCard.innerHTML +=
       `<div class="col s10 m4 l3">
@@ -154,8 +153,8 @@ document.getElementById("type").addEventListener("change", () => {
       }
     }
   });
-});
 
+});
 document.getElementById("order").addEventListener("change", () => {
 
   document.getElementById("root").innerHTML = "";
@@ -219,8 +218,8 @@ document.getElementById("order").addEventListener("change", () => {
           </div>
         </div>
       </div>`;
+      
       createModal.style.display = "block";
-
       window.onclick = function (event) {
         if (event.target == createModal) {
           createModal.style.display = "none";
@@ -229,4 +228,5 @@ document.getElementById("order").addEventListener("change", () => {
     }
   });
 });
+
 
