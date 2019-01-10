@@ -3,10 +3,10 @@ global.assert = require ("chai").assert;
 require('../src/data.js');
 require("../src/data/pokemon/pokemon.js");
 
-const type = window.POKEMON.pokemon.type;
+//const type = window.POKEMON.pokemon.type;
 const data = window.POKEMON.pokemon;
-const num = window.POKEMON.pokemon.num;
-const name = window.POKEMON.pokemon.name;
+//const num = window.POKEMON.pokemon.num;
+//const name = window.POKEMON.pokemon.name;
 
 
 describe ("data", () => {
@@ -34,7 +34,7 @@ describe ("sortData", () => {
   });
 
   it ("deberia retornar el numero 151 como el primer numero ordenado de 151-1", () => {
-    global.assert.equal(window.pokemonData.sortData (data,"num").higher, "151-1"[151].num,"151");
+    global.assert.equal(window.pokemonData.sortData (data,"num"), "151-1"[0].num,"151");
   });
 
   it ("deberia retornar el nombre Abra como el primer nombre ordenado de a-z", () => { 
@@ -42,9 +42,10 @@ describe ("sortData", () => {
   });
 
   it ("deberia retornar el nombre Zubat como el primer nombre ordenado de z-a", () => {
-    global.assert.equal(window.pokemonData.sortData (data,"name"), "Z-A"[151].name, "Zubat");
+    global.assert.equal(window.pokemonData.sortData (data,"name"), "Z-A"[0].name, "Zubat");
   })
 
+describe ("")
 
 
 });
