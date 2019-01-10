@@ -37,6 +37,8 @@ describe ("sortData", () => {
     global.assert.equal(window.pokemonData.sortData (data,"num"), "1-151"[1].num,"002"); 
   });
 
+  it ("deberia retornar el ")
+
   it ("deberia retornar el numero 151 como el primer numero ordenado de 151-1", () => {
     global.assert.equal(window.pokemonData.sortData (data,"num"), "151-1"[0].num,"151");
   });
