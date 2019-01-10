@@ -24,7 +24,7 @@ window.onload = function () {
   createCard = document.createElement("div");
   mainBox.appendChild(createCard);
 
- 
+
   newData.forEach(element => {
     createCard.innerHTML +=
       `<div class="col s7 m4 l3">
@@ -104,7 +104,7 @@ document.getElementById("type").addEventListener("change", () => {
 
   newData.forEach(element => {
     createCard.innerHTML +=
-      `<div class="col s7 m4 l3">
+      `<div class="col s12 l3">
         <div class="card small">
           <a class="buttonCard" id="infobtn${element.id}" data-target="modal1">
             <div class="card-title">#${element.num} ${element.name}</div>
@@ -222,8 +222,8 @@ document.getElementById("order").addEventListener("change", () => {
           </div>
         </div>
       </div>`;
-      
       createModal.style.display = "block";
+
       window.onclick = function (event) {
         if (event.target == createModal) {
           createModal.style.display = "none";
