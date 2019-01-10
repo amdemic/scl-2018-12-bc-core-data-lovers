@@ -30,19 +30,38 @@ describe ("sortData", () => {
   });
 
   it ("deberia retornar el numero 001 como el primer numero ordenado de 1-151", () => {
-    global.assert.equal(window.pokemonData.sortData (data,"num"), "1-151"[0].num,"001");
+    global.assert.equal(window.pokemonData.sortData (data,"num"), "1-151"[0].num,"001"); 
+  });
+
+  it ("deberia retornar el numero 002 como el segundo numero ordenado de 1-151", () => {
+    global.assert.equal(window.pokemonData.sortData (data,"num"), "1-151"[1].num,"002"); 
   });
 
   it ("deberia retornar el numero 151 como el primer numero ordenado de 151-1", () => {
     global.assert.equal(window.pokemonData.sortData (data,"num"), "151-1"[0].num,"151");
   });
 
+  it ("deberia retornar el numero 150 como el segundo numero ordenado de 151-1", () => {
+    global.assert.equal(window.pokemonData.sortData (data,"num"), "151-1"[1].num,"150");
+  });
+
   it ("deberia retornar el nombre Abra como el primer nombre ordenado de a-z", () => { 
     global.assert.equal(window.pokemonData.sortData (data,"name"), "A-Z"[0].name, "Abra");
   });
 
+  it("debería retornar el nombre Aerodactil como el segundo nombre ordenado de a-z", () => {
+    global.assert.equal(window.pokemonData.sortData (data,"name"), "A-Z"[1].name, "Aerodactil");
+  })
+
+  it ("debería retornar el nombre Abra en primer lugar y en segundo lugar el nombre Aerodactil", () => {
+    global.assert.equal(window.pokemonData.sortData (data, "(a,b)"), (a.num < b.num), "Abra,Aerodactil");
+  })
+
   it ("deberia retornar el nombre Zubat como el primer nombre ordenado de z-a", () => {
     global.assert.equal(window.pokemonData.sortData (data,"name"), "Z-A"[0].name, "Zubat");
+  })
+  it ("deberia retornar el nombre Zapdos como el segundo nombre ordenado de z-a", () => {
+    global.assert.equal(window.pokemonData.sortData (data,"name"), "Z-A"[1].name, "Zapdos");
   })
 
 describe ("computeStats", () => {
