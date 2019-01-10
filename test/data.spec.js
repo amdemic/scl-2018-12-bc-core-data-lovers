@@ -45,7 +45,14 @@ describe ("sortData", () => {
     global.assert.equal(window.pokemonData.sortData (data,"name"), "Z-A"[0].name, "Zubat");
   })
 
-describe ("")
+describe ("computeStats", () => {
+  it("deberia ser una funcion", () => {
+    global.assert.equal(typeof window.pokemonData.computeStats, "function");
+  });
+  it("debiera retornar el numero 14 para la suma de los pokemones del tipo Planta", () => {
+    global.assert(window.pokemonData.computeStats (data,"Grass"),"14");
+  });
+});
 
 
 });
