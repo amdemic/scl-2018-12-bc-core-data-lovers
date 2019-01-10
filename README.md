@@ -1,4 +1,4 @@
-# Data Lovers
+# Pokedex Kanto
 
 ## Índice
 
