@@ -6,7 +6,7 @@ require("../src/data/pokemon/pokemon.js");
 //const type = window.POKEMON.pokemon.type;
 const data = window.POKEMON.pokemon;
 //const num = window.POKEMON.pokemon.num;
-//const name = window.POKEMON.pokemon.name;
+//const name = window.POKEMON.pokemon.name; 
 
 
 describe ("data", () => {

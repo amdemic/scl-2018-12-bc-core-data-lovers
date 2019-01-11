@@ -24,6 +24,7 @@ header{
 .select-wrapper input.select-dropdown{
     border-bottom: 1px solid rgb(8, 42, 48);
     font-size: 22px;
+    background: #fff;
 }
 
 button, input, optgroup, select, textarea{
