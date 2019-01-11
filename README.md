@@ -27,7 +27,7 @@ Se detallan a continuación 5 historias de usuario:
    * Quiero poder seleccionar orden ascendente o descendente.
    * Quiero ver el listado de pokemones segun orden seleccionado.
    ##### TERMINADO
-4. Enunciado: Yo como usuario de la App quiero poder hacer una busqueda ingresando cualquier N° o letra y quiero obtener como resultado el o los pokemones que contengan el dato ingresado en su nombre o en su N° de pokemon.
+4. Enunciado: Yo como usuario de la App quiero poder hacer una busqueda ingresando cualquier N° o letra y          quiero obtener como resultado el o los pokemones que contengan el dato ingresado en su nombre o en su N° de     pokemon.
    Criterio de Aceptación: 
    * Quiero poder ingresar en la busqueda uno o mas numeros.
    * Quiero poder ingresar en la busqueda una o mas letras.
@@ -48,13 +48,18 @@ Se detallan a continuación 5 historias de usuario:
    ##### EN PROCESO  
 
 
+#### Organizando las tareass
+
 Tablero inicial
+
 <a href="https://ibb.co/dKJRKh2"><img src="https://i.ibb.co/884H8h5/tablero-inicial-1.jpg" alt="tablero-inicial-1" border="0"></a>
 
 Tablero final Vista 1
+
 <a href="https://ibb.co/FgV0czs"><img src="https://i.ibb.co/5BFnCLY/tablero-final-1.jpg" alt="tablero-final-1" border="0"></a>
 
 Tablero final Vista 2
+
 <a href="https://ibb.co/MpLtbxk"><img src="https://i.ibb.co/Gkj8X4Q/tablero-final-2.jpg" alt="tablero-final-2" border="0"></a>
 
 ### Diseño de la Interfaz de Usuario
