@@ -48,18 +48,15 @@ Se detallan a continuación 5 historias de usuario:
    ##### EN PROCESO  
 
 
-#### Organizando las tareass
+#### Organizando las tareas
 
 Tablero inicial
-
 <a href="https://ibb.co/dKJRKh2"><img src="https://i.ibb.co/884H8h5/tablero-inicial-1.jpg" alt="tablero-inicial-1" border="0"></a>
 
 Tablero final Vista 1
-
 <a href="https://ibb.co/FgV0czs"><img src="https://i.ibb.co/5BFnCLY/tablero-final-1.jpg" alt="tablero-final-1" border="0"></a>
 
 Tablero final Vista 2
-
 <a href="https://ibb.co/MpLtbxk"><img src="https://i.ibb.co/Gkj8X4Q/tablero-final-2.jpg" alt="tablero-final-2" border="0"></a>
 
 ### Diseño de la Interfaz de Usuario
