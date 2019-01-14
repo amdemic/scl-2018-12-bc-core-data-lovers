@@ -1,4 +1,4 @@
-//Declaracion de variables globals a utilizar en las funciones
+//Declaracion de variables globales a utilizar en las funciones
 const data = window.POKEMON.pokemon;
 let mainBody = document.getElementsByTagName("body")[0];
 let header = document.getElementById("header");
@@ -7,9 +7,13 @@ let createTotal;
 let createModal;
 
 //Inicialización de elementos de Materialize
+//El evento DOMContentLoaded es disparado cuando el documento HTML ha sido 
+//completamente cargado y parseado, sin esperar hojas de estilo, images y subframes para 
+//finalizar la carga. 
+
 document.addEventListener('DOMContentLoaded', function () {
-  window.M.AutoInit();
-});
+  ;
+});window.M.AutoInit()
 
 //Imprime tarjetas de todos los pokemones al cargar la pagina
 window.onload = function () {
@@ -22,7 +26,7 @@ window.onload = function () {
     mainBox.innerHTML +=
       `<div class="col s7 m4 l3">
         <div class="card small">
-          <a class="buttonCard" id="infobtn${element.id}" data-target="modal1">
+          <a class="buttonCard" id="infobtn${element.id}" data-target="modal1"> 
             <div class="card-title">#${element.num} ${element.name}</div>
             <div class="card-image" style="overflow: initial">
               <img class="responsive-img" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${element.num}.png">
