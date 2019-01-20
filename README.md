@@ -6,7 +6,7 @@ Pokédex Kanto App Web y Móvil: es una aplicación que te permitirá conocer a 
  
 **Proceso y decisiones del diseño**
 
-Se realizó una investigacion previa del juego Pokemon Go con la cual se pudo analizar que sólo una vez que atrapas a un pokemon es posible conocerlos. 
+Se realizó una investigacion previa del juego Pokemon Go con la cual se pudo analizar que sólo una vez que atrapas a un pokemon es posible conocerlo. 
 
 Por lo cual Pokédex Kanto es una útil herramienta para que puedas conocerlos a todos y valorar sus caractéristicas de forma rápida y sencilla.
 
@@ -14,6 +14,10 @@ Las decisiones del diseño se tomaron para que la App Pokédex Kanto sea lo mas 
 
 # Link Trello #
 https://trello.com/b/CHGf6eLm/proyecto-ii-pokemon
+
+# Link Figma #
+
+https://www.figma.com/proto/cYkCXAHrUPmrDQPdpDYAwo/pokemon-datalovers-Copy?node-id=177%3A0&scaling=scale-down
 
 # Desarrollo de App #
 * Veronica Machola
