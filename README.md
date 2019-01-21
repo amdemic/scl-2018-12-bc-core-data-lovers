@@ -19,6 +19,7 @@ https://trello.com/b/pJFtX02X/pok%C3%A9dex-kanto
 
 https://www.figma.com/proto/cYkCXAHrUPmrDQPdpDYAwo/pokemon-datalovers-Copy?node-id=177%3A0&scaling=scale-down
 
+
 # Desarrollo de App #
 * Veronica Machola
 * Andrea De Miranda
