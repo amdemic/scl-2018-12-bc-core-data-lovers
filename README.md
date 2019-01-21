@@ -20,12 +20,7 @@ https://drive.google.com/drive/u/1/folders/18tcGyOYc--qrlwMILdKLo4UkHoQx6zOd
 ### Link Trello y tablero físico ###
 https://trello.com/b/pJFtX02X/pok%C3%A9dex-kanto
 
-https://drive.google.com/drive/u/1/folders/1fryrE5Ou84n-aRw0Tgs-3vUHK8jwV1-T
-
-
-### Prototipo de baja fidelidad ###
-
-https://drive.google.com/drive/u/1/folders/1ZR09Tg83S4JkKqXWj_C7hUI3L__Vj0pg
+https://drive.google.com/open?id=1fryrE5Ou84n-aRw0Tgs-3vUHK8jwV1-T
 
 
 ### Prototipo de alta fidelidad: Figma ###
