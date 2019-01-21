@@ -12,7 +12,7 @@ Por lo cual Pokédex Kanto es una útil herramienta para que puedas conocerlos a
 
 Las decisiones del diseño se tomaron para que la App Pokédex Kanto sea lo mas amigable con la App Pokemon Go dado que está pensada para que resulte lo mas familiar posible con dicha aplicación. Por lo que se tomaron colores referenciales de la Pokédex de Pokemon Go y se trató de hacer nuestra App lo mas amigable posible para que sea fácil y rápida una consulta en paralelo, es decir mientras se juega.
 
-# link Procesos #
+# Link Procesos #
 https://drive.google.com/drive/u/1/folders/18tcGyOYc--qrlwMILdKLo4UkHoQx6zOd
 
 
